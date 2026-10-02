@@ -1,0 +1,135 @@
+/* Soluzione qui */
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 30px;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .recipe-origin {
+        display: inline;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .quik-notes {
+        display: grid;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr;
+
+
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .social-networks .btn {
+        flex-grow: 1;
+        max-width: 130px;
+
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ads {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .presentation img {
+        float: left;
+        margin: 0 20px 10px 0;
+
+    }
+}
+
+
+/* desktop */
+
+@media screen and (min-width: 992px) {
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .recipe-card {
+        display: flex;
+        overflow: hidden;
+        align-items: stretch;
+
+    }
+
+    .recipe-video {
+        width: 75%;
+        aspect-ratio: 16 /9;
+        min-width: 0;
+        height: auto;
+    }
+
+    .recipe-video iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .recipe-info {
+        width: 35%;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    .recipe-info {
+        width: 35%;
+    }
+
+    .social-networks .btn {
+        flex-grow: 1;
+        max-width: 400px;
+        padding: 12px 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
